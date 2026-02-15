@@ -1,0 +1,23 @@
+[theme]
+primaryColor="#0066cc"
+backgroundColor="#ffffff"
+secondaryBackgroundColor="#f0f2f6"
+textColor="#262730"
+
+[server]
+maxUploadSize = 10
+```
+
+**Project structure:**
+```
+resume-ai-project/
+├── app.py
+├── ensemble_model.py
+├── requirements.txt
+├── .streamlit/
+│   └── config.toml
+├── models/
+│   ├── sentence_transformer/
+│   ├── classifier.pkl
+│   └── label_map.json
+└── README.md
